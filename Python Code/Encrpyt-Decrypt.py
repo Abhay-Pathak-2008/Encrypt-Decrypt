@@ -26,11 +26,11 @@ if see_msg == 'yes':
     try:
 
         if decrypt == hashed:
-            print(f"Phrase Matched The Message Is: {phrase}")
+            print(f"Phrase Matched, The Message Is: {phrase}")
         else:
             print("No Match !!!")
     except Exception as e:
-        print(f"Error occurred {e}")
+        print(f"Error occurred: {e}")
 
     finally:
 
@@ -38,4 +38,4 @@ if see_msg == 'yes':
         print("\nThanks For Using!")
 
 else:
-    print("Your msg has been successfully Encrypted")
+    print("Message Encrypted")
